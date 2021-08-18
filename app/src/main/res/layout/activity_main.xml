@@ -77,11 +77,13 @@
         <RadioButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:enabled="false"
             android:text="선택안함"/>
 
     </RadioGroup>
 
     <CheckBox
+        android:visibility="gone"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:checked="true"
